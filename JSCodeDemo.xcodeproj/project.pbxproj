@@ -16,6 +16,8 @@
 		065A7065244FF3B80073DAA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 065A7064244FF3B80073DAA4 /* main.m */; };
 		065A706F244FF3B80073DAA4 /* JSCodeDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 065A706E244FF3B80073DAA4 /* JSCodeDemoUITests.m */; };
 		065A707B244FF6CB0073DAA4 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 065A707A244FF6CB0073DAA4 /* JavaScriptCore.framework */; };
+		065A707F245002820073DAA4 /* NativeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 065A707E245002820073DAA4 /* NativeObject.m */; };
+		065A7087245013050073DAA4 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 065A7086245013050073DAA4 /* Messages.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,9 @@
 		065A7070244FF3B80073DAA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		065A707A244FF6CB0073DAA4 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		065A707C244FF6F60073DAA4 /* JSProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSProtocol.h; sourceTree = "<group>"; };
+		065A707D245002820073DAA4 /* NativeObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NativeObject.h; sourceTree = "<group>"; };
+		065A707E245002820073DAA4 /* NativeObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NativeObject.m; sourceTree = "<group>"; };
+		065A7086245013050073DAA4 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				065A7087245013050073DAA4 /* Messages.framework in Frameworks */,
 				065A707B244FF6CB0073DAA4 /* JavaScriptCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -95,6 +101,8 @@
 				065A7056244FF3B40073DAA4 /* SceneDelegate.m */,
 				065A7058244FF3B40073DAA4 /* ViewController.h */,
 				065A7059244FF3B40073DAA4 /* ViewController.m */,
+				065A707D245002820073DAA4 /* NativeObject.h */,
+				065A707E245002820073DAA4 /* NativeObject.m */,
 				065A707C244FF6F60073DAA4 /* JSProtocol.h */,
 				065A705B244FF3B40073DAA4 /* Main.storyboard */,
 				065A705E244FF3B80073DAA4 /* Assets.xcassets */,
@@ -117,6 +125,7 @@
 		065A7079244FF6CB0073DAA4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				065A7086245013050073DAA4 /* Messages.framework */,
 				065A707A244FF6CB0073DAA4 /* JavaScriptCore.framework */,
 			);
 			name = Frameworks;
@@ -223,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				065A705A244FF3B40073DAA4 /* ViewController.m in Sources */,
+				065A707F245002820073DAA4 /* NativeObject.m in Sources */,
 				065A7054244FF3B40073DAA4 /* AppDelegate.m in Sources */,
 				065A7065244FF3B80073DAA4 /* main.m in Sources */,
 				065A7057244FF3B40073DAA4 /* SceneDelegate.m in Sources */,
